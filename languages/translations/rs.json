@@ -5,16 +5,16 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "prvi",
-                "2": "drugi",
-                "3": "treći",
-                "4": "četvrti",
-                "5": "peti",
-                "6": "šesti",
-                "7": "sedmi",
-                "8": "osmi",
-                "9": "deveti",
-                "10": "deseti"
+                "1": "1.",
+                "2": "2.",
+                "3": "3.",
+                "4": "4.",
+                "5": "5.",
+                "6": "6.",
+                "7": "7.",
+                "8": "8.",
+                "9": "9.",
+                "10": "10."
             },
             "direction": {
                 "north": "severno",
@@ -27,20 +27,20 @@
                 "northwest": "severozapadno"               
             },
             "modifier": {
-                "left": "left",
-                "right": "right",
-                "sharp left": "sharp left",
-                "sharp right": "sharp right",
-                "slight left": "slight left",
-                "slight right": "slight right",
-                "straight": "straight",
-                "uturn": "U-turn"
+                "left": "levo",
+                "right": "desno",
+                "sharp left": "oštro levo",
+                "sharp right": "oštro desno",
+                "slight left": "blago ulevo",
+                "slight right": "blago udesno",
+                "straight": "pravo",
+                "uturn": "polukružni okret"
             },
             "lanes": {
-                "xo": "Keep right",
-                "ox": "Keep left",
-                "xox": "Keep in the middle",
-                "oxo": "Keep left or right"
+                "xo": "Držite desno",
+                "ox": "Držite levo",
+                "xox": "Drižte se u sredini",
+                "oxo": "Držite se levo ili desno"
             }
         },
         "modes": {
@@ -51,19 +51,19 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one}, then, in {distance}, {instruction_two}",
-            "two linked": "{instruction_one}, then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}",
+            "two linked by distance": "{instruction_one}, a onda, za {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, a onda {instruction_two}",
+            "one in distance": "Za {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "exit {exit}"
+            "exit with number": "izlaz {exit}"
         },
         "arrive": {
             "default": {
-                "default": "You have arrived at your {nth} destination",
-                "upcoming": "You will arrive at your {nth} destination",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}"
+                "default": "Stigli ste na svoju {nth} destinaciju",
+                "upcoming": "Stižete uskoro na svoju {nth} destinaciju",
+                "short": "Stigli ste",
+                "short-upcoming": "Stižete uskoro",
+                "named": "Stigli ste na lokaciju '{waypoint_name}'"
             },
             "left": {
                 "default": "You have arrived at your {nth} destination, on the left",
@@ -117,29 +117,29 @@
         },
         "continue": {
             "default": {
-                "default": "Turn {modifier}",
-                "name": "Turn {modifier} to stay on {way_name}",
-                "destination": "Turn {modifier} towards {destination}",
-                "exit": "Turn {modifier} onto {way_name}"
+                "default": "Skrenite {modifier}",
+                "name": "Skrenite {modifier} da bi ste ostali na {way_name}",
+                "destination": "Skrenite {modifier} prema {destination}",
+                "exit": "Skrenite {modifier} na {way_name}"
             },
             "straight": {
-                "default": "Continue straight",
-                "name": "Continue straight to stay on {way_name}",
-                "destination": "Continue towards {destination}",
-                "distance": "Continue straight for {distance}",
-                "namedistance": "Continue on {way_name} for {distance}"
+                "default": "Nastavite pravo",
+                "name": "Nastavite pravo da bi ste ostali na {way_name}",
+                "destination": "Nastavite prema {destination}",
+                "distance": "Nastavite pravo sledećih {distance}",
+                "namedistance": "Nastavite na {way_name} sledećih {distance}"
             },
             "sharp left": {
-                "default": "Make a sharp left",
-                "name": "Make a sharp left to stay on {way_name}",
-                "destination": "Make a sharp left towards {destination}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "default": "Skrenite ošto u levo",
+                "name": "Skrenite ošto u levo da bi ste ostali na {way_name}",
+                "destination": "Skrenite ošto u levo prema {destination}",
+                "junction_name": "Skrenite ošto u levo na raskrsnici {junction_name}"
             },
             "sharp right": {
-                "default": "Make a sharp right",
-                "name": "Make a sharp right to stay on {way_name}",
-                "destination": "Make a sharp right towards {destination}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "default": "Skrenite ošto u desno",
+                "name": "Skrenite ošto u desno da bi ste ostali na {way_name}",
+                "destination": "Skrenite ošto u desno prema {destination}",
+                "junction_name": "Skrenite ošto u desno na raskrsnici {junction_name}"
             },
             "slight left": {
                 "default": "Make a slight left",
@@ -154,28 +154,28 @@
                 "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn and continue on {way_name}",
-                "destination": "Make a U-turn towards {destination}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "default": "Napravite polukružno okretanje",
+                "name": "Napravite polukružno okretanje i nastavite na {way_name}",
+                "destination": "Napravite polukružno prema {destination}",
+                "junction_name": "Napravite polukružno okretanje na raskrsnici {junction_name}"
             }
         },
         "depart": {
             "default": {
-                "default": "Head {direction}",
-                "name": "Head {direction} on {way_name}",
-                "namedistance": "Head {direction} on {way_name} for {distance}"
+                "default": "Idite {direction}",
+                "name": "Idite {direction} na {way_name}",
+                "namedistance": "Idite {direction} na {way_name} sledećih {distance}"
             }
         },
         "end of road": {
             "default": {
-                "default": "Turn {modifier}",
-                "name": "Turn {modifier} onto {way_name}",
-                "destination": "Turn {modifier} towards {destination}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "default": "Skrenite {modifier}",
+                "name": "Skrenite {modifier} na {way_name}",
+                "destination": "Skrenite {modifier} prema {destination}",
+                "junction_name": "Skrenite {modifier} na raskrsnici {junction_name}"
             },
             "straight": {
-                "default": "Continue straight",
+                "default": "Nastavite pravo",
                 "name": "Continue straight onto {way_name}",
                 "destination": "Continue straight towards {destination}",
                 "junction_name": "Continue straight at {junction_name}"
